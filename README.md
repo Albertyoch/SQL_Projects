@@ -6,4 +6,4 @@ The selection of datasets was deliberate to tailor my learning experience, ultim
 
 ## Table of Contents
 
-- Case Study #1: Netflix's Userbase 
+- Case Study #1: [Netflix's Userbase](https://github.com/Albertyoch/SQL_Projects/tree/main/Case_Study%231%20:%20Netflix) 
