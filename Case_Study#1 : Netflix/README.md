@@ -12,6 +12,7 @@
 ----
 ![Alt text](image-1.png)
 
+
 This analysis delves into the essential user attributes of Netflix, leveraging a publicly accessible dataset sourced from Kaggle. The dataset serves as a rich source of information, enabling data analysts to conduct a thorough examination of user behaviour, encompassing subscription trends and demographic details. The overarching goal is to better understand and address the unique requirements of Netflix users, ultimately contributing to an elevated and more personalized streaming experience. 
 
 ### Data Wrangling 
