@@ -11,7 +11,8 @@
 ### Introduction
 ----
 ![Alt text](image-1.png)
-This investigation delves into the essential user attributes of Netflix, leveraging a publicly accessible dataset sourced from Kaggle. The dataset serves as a rich source of information, enabling data analysts to conduct a thorough examination of user behavior, encompassing subscription trends and demographic details. The overarching goal is to better understand and address the unique requirements of Netflix users, ultimately contributing to an elevated and more personalized streaming experience. 
+
+This analysis delves into the essential user attributes of Netflix, leveraging a publicly accessible dataset sourced from Kaggle. The dataset serves as a rich source of information, enabling data analysts to conduct a thorough examination of user behaviour, encompassing subscription trends and demographic details. The overarching goal is to better understand and address the unique requirements of Netflix users, ultimately contributing to an elevated and more personalized streaming experience. 
 
 ### Data Wrangling 
 ----
@@ -40,9 +41,9 @@ Simple data wrangling that includes data normalization conducted in **Jupyter No
 
 ### SQL Analysis
 ----
-Querying process will be all conducted using SQL Server. 
+The querying process will be all conducted using SQL Server. 
 
-For every challenge, a small table of querying result and steps are provided as part of practicing findings demonstration.
+For every challenge, a small table of querying results and steps is provided as part of practicing findings demonstration.
 
 ***1. Retrieve Netflix users' data that has joined before the beginning of 2022*** 🎆
 
@@ -139,7 +140,7 @@ GROUP BY
 
 **Steps:**
 
-- Call the appropriate column on **SELECT** clause - in this case country and age. Then use aggregation function **AVG** to calculate the numeric average of age.
+- Call the appropriate column on **SELECT** clause - in this case, country and age. Then, use the aggregation function **AVG** to calculate the numeric average of age.
 - Merge <mark style="background-color: #f2f2f2">[dbo].[users]</mark> and <mark style="background-color: #f2f2f2">[dbo].[country]</mark> tables  through process of **JOIN** clause and identification of key column to build table relationship.
 - Group the result by non-aggregated column that sits on **SELECT** clause.
 
