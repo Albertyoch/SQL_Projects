@@ -1,4 +1,4 @@
-# Case Study#2 : Global Happiness Index and Life Expectancy 🌏
+# Case Study#2: Global Happiness Index and Life Expectancy 🌏
 
 ## Table Of Contents: 📚 
 
@@ -8,24 +8,24 @@
 * [Entity Relationship Diagram](#entity-relationship-diagram)
 * [SQL Analysis](#sql-analysis)
 
-### Introduction 📝
-In this episode of SQL case study, I will explore the dataset I obtain from public sources. Essentially, we will harness SQL language to uncover the correlation between life expectancy and happiness index among countries. 
+### Introduction 
+In this episode of SQL case study, I will explore the dataset I obtained from public sources. Essentially, we will harness SQL language to uncover the correlation between life expectancy and happiness index among countries. 
 
-### Data Wrangling 🔎
+### Data Wrangling 
 1. Managing Nulls = 
-In this dataset, I applied statistical method to deal with nulls. First, I discovered the total percentage of nulls in the columns, then I categorized columns as neccesary or droppable if the null percentage was too high.
+In this dataset, I applied statistical methods to deal with nulls. First, I discovered the total percentage of nulls in the columns, then I categorized columns as necessary or droppable if the null percentage was too high.
 2. Data Manipulation =
-I use Pandas libraries to transform tables, from column renaming, dropping unnecessary columns , and so on. I also utillized python library to extract continent out of corresponding country column so I can have common region column for two dataset.
+I use Pandas libraries to transform tables, from column renaming to dropping unnecessary columns, and so on. I also utilised the python library to extract continents out of the corresponding country column so I could have a common region column for two datasets.
 3. Data Normalization =
-Still using python, I turn the dataset into database-like format for SQL analysis.
+Still, with Python, I turn the dataset into a database-like format for SQL analysis.
 
-### Data Description 🧾
+### Data Description 
 - country = Countries
 - continent = Continents
-- income_group = Different income bracket for countries
+- income_group = Different income brackets for countries
 - year = years
 - undernourishment = the prevalence of undernourishment in a country
-- health expenditure = government's spending for health sector
+- health expenditure = government's spending for the health sector
 - unemployment = unemployment rate
 - happiness_rank = country rank in happiness index
 - happiness_score = score that represents a country's overall happiness from different factors and sorts country in a certain rank
@@ -35,11 +35,12 @@ Still using python, I turn the dataset into database-like format for SQL analysi
 - generosity = average of charitable donations as a percentage of gross income in each country. 
 
 ### Entity Relationship Diagram
+![erd_case2](https://github.com/Albertyoch/SQL_Projects/assets/117698723/cb72f598-dccc-4ab9-9196-ec4da74ba44e)
 
 
 ### SQL Analysis
 
-1. ***Find top 5 country with highest average life expectancy throughout dataset***
+1. ***Find top 5 countries with highest average life expectancy throughout the dataset***
 ``````
 SELECT TOP 5 
 	country,
