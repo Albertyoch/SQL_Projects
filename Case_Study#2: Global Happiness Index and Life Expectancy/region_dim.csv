@@ -1,0 +1,8 @@
+continent,continent_id
+Asia,0
+Africa,1
+Europe,2
+South America,3
+Oceania,4
+North America,5
+Unknown,6
